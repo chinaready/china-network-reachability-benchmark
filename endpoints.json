@@ -1,0 +1,464 @@
+{
+  "version": 2,
+  "notes": "China Network Reachability Benchmark endpoint panel v2 (2026-10-15). Expanded from 35 to 73 endpoints using the Landscape global-services gap catalog; complex products carry multiple endpoints. Reachability = ANY HTTP response (even 404/405); failure = DNS failure / timeout / reset.",
+  "categories": {
+    "fonts_css": "Fonts, CSS, and frontend CDNs",
+    "analytics": "Analytics and tag management",
+    "maps": "Maps and geo",
+    "payments": "Payments",
+    "auth": "Identity and login",
+    "comms": "Push, SMS, and email",
+    "video_social": "Video and social embeds",
+    "ai": "AI APIs",
+    "dev_infra": "Developer infrastructure",
+    "cloud_apis": "Cloud service APIs",
+    "productivity": "B2B productivity APIs",
+    "captcha": "Bot and human verification"
+  },
+  "endpoints": [
+    {
+      "id": "google-fonts-api",
+      "url": "https://fonts.googleapis.com/css?family=Roboto",
+      "category": "fonts_css",
+      "label": "Google Fonts API"
+    },
+    {
+      "id": "google-fonts-static",
+      "url": "https://fonts.gstatic.com",
+      "category": "fonts_css",
+      "label": "Google Fonts static files"
+    },
+    {
+      "id": "jsdelivr",
+      "url": "https://cdn.jsdelivr.net",
+      "category": "fonts_css",
+      "label": "jsDelivr CDN"
+    },
+    {
+      "id": "cdnjs",
+      "url": "https://cdnjs.cloudflare.com",
+      "category": "fonts_css",
+      "label": "cdnjs (Cloudflare)"
+    },
+    {
+      "id": "unpkg",
+      "url": "https://unpkg.com",
+      "category": "fonts_css",
+      "label": "unpkg"
+    },
+    {
+      "id": "tailwind-cdn",
+      "url": "https://cdn.tailwindcss.com",
+      "category": "fonts_css",
+      "label": "Tailwind CSS CDN"
+    },
+    {
+      "id": "google-analytics",
+      "url": "https://www.google-analytics.com",
+      "category": "analytics",
+      "label": "Google Analytics"
+    },
+    {
+      "id": "google-tag-manager",
+      "url": "https://googletagmanager.com",
+      "category": "analytics",
+      "label": "Google Tag Manager"
+    },
+    {
+      "id": "segment-api",
+      "url": "https://api.segment.io",
+      "category": "analytics",
+      "label": "Segment API"
+    },
+    {
+      "id": "amplitude-api",
+      "url": "https://api.amplitude.com",
+      "category": "analytics",
+      "label": "Amplitude API"
+    },
+    {
+      "id": "mixpanel-api",
+      "url": "https://api.mixpanel.com",
+      "category": "analytics",
+      "label": "Mixpanel API"
+    },
+    {
+      "id": "plausible",
+      "url": "https://plausible.io",
+      "category": "analytics",
+      "label": "Plausible"
+    },
+    {
+      "id": "logrocket-cdn",
+      "url": "https://cdn.logrocket.com",
+      "category": "analytics",
+      "label": "LogRocket CDN"
+    },
+    {
+      "id": "pendo-cdn",
+      "url": "https://cdn.pendo.io",
+      "category": "analytics",
+      "label": "Pendo CDN"
+    },
+    {
+      "id": "google-maps-api",
+      "url": "https://maps.googleapis.com/maps/api/js",
+      "category": "maps",
+      "label": "Google Maps JS API"
+    },
+    {
+      "id": "mapbox-api",
+      "url": "https://api.mapbox.com",
+      "category": "maps",
+      "label": "Mapbox API"
+    },
+    {
+      "id": "openstreetmap-tiles",
+      "url": "https://tile.openstreetmap.org",
+      "category": "maps",
+      "label": "OpenStreetMap tiles"
+    },
+    {
+      "id": "stripe-api",
+      "url": "https://api.stripe.com",
+      "category": "payments",
+      "label": "Stripe API"
+    },
+    {
+      "id": "stripe-js",
+      "url": "https://js.stripe.com",
+      "category": "payments",
+      "label": "Stripe.js"
+    },
+    {
+      "id": "paypal-api",
+      "url": "https://api-m.paypal.com",
+      "category": "payments",
+      "label": "PayPal API"
+    },
+    {
+      "id": "checkout-com-api",
+      "url": "https://api.checkout.com",
+      "category": "payments",
+      "label": "Checkout.com API"
+    },
+    {
+      "id": "authorizenet-api",
+      "url": "https://api.authorize.net",
+      "category": "payments",
+      "label": "Authorize.Net API"
+    },
+    {
+      "id": "gumroad",
+      "url": "https://gumroad.com",
+      "category": "payments",
+      "label": "Gumroad"
+    },
+    {
+      "id": "auth0",
+      "url": "https://auth0.com",
+      "category": "auth",
+      "label": "Auth0"
+    },
+    {
+      "id": "okta",
+      "url": "https://okta.com",
+      "category": "auth",
+      "label": "Okta"
+    },
+    {
+      "id": "firebase-auth",
+      "url": "https://firebase.googleapis.com",
+      "category": "auth",
+      "label": "Firebase (Google) API"
+    },
+    {
+      "id": "ms-login",
+      "url": "https://login.microsoftonline.com",
+      "category": "auth",
+      "label": "Microsoft login (Entra ID)"
+    },
+    {
+      "id": "facebook-login",
+      "url": "https://www.facebook.com",
+      "category": "auth",
+      "label": "Facebook Login / Meta"
+    },
+    {
+      "id": "twilio-api",
+      "url": "https://api.twilio.com",
+      "category": "comms",
+      "label": "Twilio API"
+    },
+    {
+      "id": "fcm",
+      "url": "https://fcm.googleapis.com",
+      "category": "comms",
+      "label": "Firebase Cloud Messaging"
+    },
+    {
+      "id": "onesignal",
+      "url": "https://onesignal.com",
+      "category": "comms",
+      "label": "OneSignal"
+    },
+    {
+      "id": "resend-api",
+      "url": "https://api.resend.com",
+      "category": "comms",
+      "label": "Resend API"
+    },
+    {
+      "id": "mailchimp-api",
+      "url": "https://api.mailchimp.com",
+      "category": "comms",
+      "label": "Mailchimp API"
+    },
+    {
+      "id": "klaviyo-api",
+      "url": "https://a.klaviyo.com",
+      "category": "comms",
+      "label": "Klaviyo API"
+    },
+    {
+      "id": "brevo-api",
+      "url": "https://api.brevo.com",
+      "category": "comms",
+      "label": "Brevo API"
+    },
+    {
+      "id": "ytimg",
+      "url": "https://i.ytimg.com",
+      "category": "video_social",
+      "label": "YouTube thumbnail CDN"
+    },
+    {
+      "id": "twitter-embed",
+      "url": "https://platform.twitter.com",
+      "category": "video_social",
+      "label": "X/Twitter embeds"
+    },
+    {
+      "id": "openai-api",
+      "url": "https://api.openai.com",
+      "category": "ai",
+      "label": "OpenAI API"
+    },
+    {
+      "id": "chatgpt-web",
+      "url": "https://chatgpt.com",
+      "category": "ai",
+      "label": "ChatGPT web app"
+    },
+    {
+      "id": "anthropic-api",
+      "url": "https://api.anthropic.com",
+      "category": "ai",
+      "label": "Anthropic API"
+    },
+    {
+      "id": "gemini-api",
+      "url": "https://generativelanguage.googleapis.com",
+      "category": "ai",
+      "label": "Gemini API"
+    },
+    {
+      "id": "cohere-api",
+      "url": "https://api.cohere.com",
+      "category": "ai",
+      "label": "Cohere API"
+    },
+    {
+      "id": "mistral-api",
+      "url": "https://api.mistral.ai",
+      "category": "ai",
+      "label": "Mistral API"
+    },
+    {
+      "id": "github",
+      "url": "https://github.com",
+      "category": "dev_infra",
+      "label": "GitHub (web)"
+    },
+    {
+      "id": "github-api",
+      "url": "https://api.github.com",
+      "category": "dev_infra",
+      "label": "GitHub API"
+    },
+    {
+      "id": "github-raw",
+      "url": "https://raw.githubusercontent.com",
+      "category": "dev_infra",
+      "label": "GitHub raw content"
+    },
+    {
+      "id": "npm-registry",
+      "url": "https://registry.npmjs.org",
+      "category": "dev_infra",
+      "label": "npm registry"
+    },
+    {
+      "id": "pypi",
+      "url": "https://pypi.org",
+      "category": "dev_infra",
+      "label": "PyPI"
+    },
+    {
+      "id": "docker-registry",
+      "url": "https://registry-1.docker.io",
+      "category": "dev_infra",
+      "label": "Docker Hub registry"
+    },
+    {
+      "id": "huggingface",
+      "url": "https://huggingface.co",
+      "category": "dev_infra",
+      "label": "Hugging Face"
+    },
+    {
+      "id": "sentry-api",
+      "url": "https://sentry.io",
+      "category": "dev_infra",
+      "label": "Sentry (app)"
+    },
+    {
+      "id": "sentry-ingest",
+      "url": "https://ingest.sentry.io",
+      "category": "dev_infra",
+      "label": "Sentry ingest"
+    },
+    {
+      "id": "datadog-api",
+      "url": "https://api.datadoghq.com",
+      "category": "dev_infra",
+      "label": "Datadog API"
+    },
+    {
+      "id": "bugsnag-api",
+      "url": "https://api.bugsnag.com",
+      "category": "dev_infra",
+      "label": "Bugsnag API"
+    },
+    {
+      "id": "gcs",
+      "url": "https://storage.googleapis.com",
+      "category": "cloud_apis",
+      "label": "Google Cloud Storage"
+    },
+    {
+      "id": "s3",
+      "url": "https://s3.amazonaws.com",
+      "category": "cloud_apis",
+      "label": "AWS S3"
+    },
+    {
+      "id": "cloudflare-api",
+      "url": "https://api.cloudflare.com",
+      "category": "cloud_apis",
+      "label": "Cloudflare API"
+    },
+    {
+      "id": "fastly",
+      "url": "https://www.fastly.com",
+      "category": "cloud_apis",
+      "label": "Fastly"
+    },
+    {
+      "id": "slack-api",
+      "url": "https://slack.com/api/api.test",
+      "category": "productivity",
+      "label": "Slack API"
+    },
+    {
+      "id": "notion-api",
+      "url": "https://api.notion.com",
+      "category": "productivity",
+      "label": "Notion API"
+    },
+    {
+      "id": "ms-graph",
+      "url": "https://graph.microsoft.com",
+      "category": "productivity",
+      "label": "Microsoft Graph"
+    },
+    {
+      "id": "teams",
+      "url": "https://teams.microsoft.com",
+      "category": "productivity",
+      "label": "Microsoft Teams"
+    },
+    {
+      "id": "zoom",
+      "url": "https://zoom.us",
+      "category": "productivity",
+      "label": "Zoom"
+    },
+    {
+      "id": "webex",
+      "url": "https://www.webex.com",
+      "category": "productivity",
+      "label": "Webex"
+    },
+    {
+      "id": "salesforce-login",
+      "url": "https://login.salesforce.com",
+      "category": "productivity",
+      "label": "Salesforce login"
+    },
+    {
+      "id": "hubspot-api",
+      "url": "https://api.hubapi.com",
+      "category": "productivity",
+      "label": "HubSpot API"
+    },
+    {
+      "id": "zendesk",
+      "url": "https://www.zendesk.com",
+      "category": "productivity",
+      "label": "Zendesk"
+    },
+    {
+      "id": "airtable-api",
+      "url": "https://api.airtable.com",
+      "category": "productivity",
+      "label": "Airtable API"
+    },
+    {
+      "id": "typeform-api",
+      "url": "https://api.typeform.com",
+      "category": "productivity",
+      "label": "Typeform API"
+    },
+    {
+      "id": "surveymonkey",
+      "url": "https://www.surveymonkey.com",
+      "category": "productivity",
+      "label": "SurveyMonkey"
+    },
+    {
+      "id": "figma",
+      "url": "https://figma.com",
+      "category": "productivity",
+      "label": "Figma"
+    },
+    {
+      "id": "docusign",
+      "url": "https://www.docusign.com",
+      "category": "productivity",
+      "label": "DocuSign"
+    },
+    {
+      "id": "recaptcha",
+      "url": "https://www.google.com/recaptcha/api.js",
+      "category": "captcha",
+      "label": "reCAPTCHA"
+    },
+    {
+      "id": "hcaptcha",
+      "url": "https://hcaptcha.com",
+      "category": "captcha",
+      "label": "hCaptcha"
+    }
+  ]
+}

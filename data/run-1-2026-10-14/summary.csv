@@ -1,0 +1,36 @@
+endpoint_id,category,label,url,nodes_probed,nodes_responded,availability_pct,aggregate_status
+google-fonts-api,fonts_css,"Google Fonts API",https://fonts.googleapis.com/css?family=Roboto,128,121,95,available
+google-fonts-static,fonts_css,"Google Fonts static",https://fonts.gstatic.com,98,0,0,unavailable
+jsdelivr,fonts_css,"jsDelivr CDN",https://cdn.jsdelivr.net,125,99,79,limited
+cdnjs,fonts_css,"cdnjs (Cloudflare)",https://cdnjs.cloudflare.com,86,85,99,available
+unpkg,fonts_css,"unpkg",https://unpkg.com,128,127,99,available
+google-analytics,analytics,"Google Analytics",https://www.google-analytics.com,134,0,0,unavailable
+google-tag-manager,analytics,"Google Tag Manager",https://googletagmanager.com,133,0,0,unavailable
+segment-api,analytics,"Segment API",https://api.segment.io,112,0,0,unavailable
+amplitude-api,analytics,"Amplitude API",https://api.amplitude.com,132,0,0,unavailable
+mixpanel-api,analytics,"Mixpanel API",https://api.mixpanel.com,135,0,0,unavailable
+google-maps-api,maps,"Google Maps JS API",https://maps.googleapis.com/maps/api/js,135,0,0,unavailable
+stripe-api,payments,"Stripe API",https://api.stripe.com,111,0,0,unavailable
+stripe-js,payments,"Stripe.js",https://js.stripe.com,135,0,0,unavailable
+paypal-api,payments,"PayPal API",https://api-m.paypal.com,134,0,0,unavailable
+auth0,auth,"Auth0",https://auth0.com,134,133,99,available
+twilio-api,comms,"Twilio API",https://api.twilio.com,134,128,96,available
+fcm,comms,"Firebase Cloud Messaging",https://fcm.googleapis.com,135,0,0,unavailable
+onesignal,comms,"OneSignal",https://onesignal.com,110,108,98,available
+resend-api,comms,"Resend API",https://api.resend.com,135,133,99,available
+ytimg,video_social,"YouTube thumbnail CDN",https://i.ytimg.com,135,0,0,unavailable
+twitter-embed,video_social,"X/Twitter embeds",https://platform.twitter.com,134,0,0,unavailable
+openai-api,ai,"OpenAI API",https://api.openai.com,133,0,0,unavailable
+anthropic-api,ai,"Anthropic API",https://api.anthropic.com,126,0,0,unavailable
+gemini-api,ai,"Gemini API",https://generativelanguage.googleapis.com,135,0,0,unavailable
+github,dev_infra,"GitHub",https://github.com,120,69,57,limited
+npm-registry,dev_infra,"npm registry",https://registry.npmjs.org,135,134,99,available
+pypi,dev_infra,"PyPI",https://pypi.org,135,132,98,available
+docker-registry,dev_infra,"Docker Hub registry",https://registry-1.docker.io,134,0,0,unavailable
+huggingface,dev_infra,"Hugging Face",https://huggingface.co,129,0,0,unavailable
+gcs,cloud_apis,"Google Cloud Storage",https://storage.googleapis.com,133,0,0,unavailable
+s3,cloud_apis,"AWS S3",https://s3.amazonaws.com,135,128,95,available
+slack-api,productivity,"Slack API",https://slack.com/api/api.test,90,89,99,available
+notion-api,productivity,"Notion API",https://api.notion.com,135,134,99,available
+ms-graph,productivity,"Microsoft Graph",https://graph.microsoft.com,135,132,98,available
+zoom,productivity,"Zoom",https://zoom.us,135,132,98,available
