@@ -1,0 +1,75 @@
+endpoint_id,category,label,url,nodes_probed,nodes_responded,availability_pct,aggregate_status
+google-fonts-api,fonts_css,"Google Fonts API",https://fonts.googleapis.com/css?family=Roboto,8,8,100,available
+google-fonts-static,fonts_css,"Google Fonts static files",https://fonts.gstatic.com,10,0,0,unavailable
+jsdelivr,fonts_css,"jsDelivr CDN",https://cdn.jsdelivr.net,11,7,64,limited
+cdnjs,fonts_css,"cdnjs (Cloudflare)",https://cdnjs.cloudflare.com,12,10,83,limited
+unpkg,fonts_css,"unpkg",https://unpkg.com,12,12,100,available
+tailwind-cdn,fonts_css,"Tailwind CSS CDN",https://cdn.tailwindcss.com,12,12,100,available
+google-analytics,analytics,"Google Analytics",https://www.google-analytics.com,12,0,0,unavailable
+google-tag-manager,analytics,"Google Tag Manager",https://googletagmanager.com,11,0,0,unavailable
+segment-api,analytics,"Segment API",https://api.segment.io,12,0,0,unavailable
+amplitude-api,analytics,"Amplitude API",https://api.amplitude.com,12,0,0,unavailable
+mixpanel-api,analytics,"Mixpanel API",https://api.mixpanel.com,11,0,0,unavailable
+plausible,analytics,"Plausible",https://plausible.io,12,12,100,available
+logrocket-cdn,analytics,"LogRocket CDN",https://cdn.logrocket.com,12,12,100,available
+pendo-cdn,analytics,"Pendo CDN",https://cdn.pendo.io,10,0,0,unavailable
+google-maps-api,maps,"Google Maps JS API",https://maps.googleapis.com/maps/api/js,12,0,0,unavailable
+mapbox-api,maps,"Mapbox API",https://api.mapbox.com,12,12,100,available
+openstreetmap-tiles,maps,"OpenStreetMap tiles",https://tile.openstreetmap.org,12,0,0,unavailable
+stripe-api,payments,"Stripe API",https://api.stripe.com,12,0,0,unavailable
+stripe-js,payments,"Stripe.js",https://js.stripe.com,12,0,0,unavailable
+paypal-api,payments,"PayPal API",https://api-m.paypal.com,11,0,0,unavailable
+checkout-com-api,payments,"Checkout.com API",https://api.checkout.com,12,0,0,unavailable
+authorizenet-api,payments,"Authorize.Net API",https://api.authorize.net,12,0,0,unavailable
+gumroad,payments,"Gumroad",https://gumroad.com,12,0,0,unavailable
+auth0,auth,"Auth0",https://auth0.com,12,12,100,available
+okta,auth,"Okta",https://okta.com,12,12,100,available
+firebase-auth,auth,"Firebase (Google) API",https://firebase.googleapis.com,12,0,0,unavailable
+ms-login,auth,"Microsoft login (Entra ID)",https://login.microsoftonline.com,12,12,100,available
+facebook-login,auth,"Facebook Login / Meta",https://www.facebook.com,12,0,0,unavailable
+twilio-api,comms,"Twilio API",https://api.twilio.com,12,12,100,available
+fcm,comms,"Firebase Cloud Messaging",https://fcm.googleapis.com,12,0,0,unavailable
+onesignal,comms,"OneSignal",https://onesignal.com,9,9,100,available
+resend-api,comms,"Resend API",https://api.resend.com,12,12,100,available
+mailchimp-api,comms,"Mailchimp API",https://api.mailchimp.com,12,12,100,available
+klaviyo-api,comms,"Klaviyo API",https://a.klaviyo.com,12,12,100,available
+brevo-api,comms,"Brevo API",https://api.brevo.com,12,0,0,unavailable
+ytimg,video_social,"YouTube thumbnail CDN",https://i.ytimg.com,12,0,0,unavailable
+twitter-embed,video_social,"X/Twitter embeds",https://platform.twitter.com,11,0,0,unavailable
+openai-api,ai,"OpenAI API",https://api.openai.com,12,0,0,unavailable
+chatgpt-web,ai,"ChatGPT web app",https://chatgpt.com,12,0,0,unavailable
+anthropic-api,ai,"Anthropic API",https://api.anthropic.com,12,0,0,unavailable
+gemini-api,ai,"Gemini API",https://generativelanguage.googleapis.com,12,0,0,unavailable
+cohere-api,ai,"Cohere API",https://api.cohere.com,12,0,0,unavailable
+mistral-api,ai,"Mistral API",https://api.mistral.ai,11,0,0,unavailable
+github,dev_infra,"GitHub (web)",https://github.com,12,11,92,available
+github-api,dev_infra,"GitHub API",https://api.github.com,8,8,100,available
+github-raw,dev_infra,"GitHub raw content",https://raw.githubusercontent.com,12,2,17,limited
+npm-registry,dev_infra,"npm registry",https://registry.npmjs.org,9,9,100,available
+pypi,dev_infra,"PyPI",https://pypi.org,12,12,100,available
+docker-registry,dev_infra,"Docker Hub registry",https://registry-1.docker.io,11,0,0,unavailable
+huggingface,dev_infra,"Hugging Face",https://huggingface.co,12,0,0,unavailable
+sentry-api,dev_infra,"Sentry (app)",https://sentry.io,12,12,100,available
+sentry-ingest,dev_infra,"Sentry ingest",https://ingest.sentry.io,8,0,0,unavailable
+datadog-api,dev_infra,"Datadog API",https://api.datadoghq.com,12,12,100,available
+bugsnag-api,dev_infra,"Bugsnag API",https://api.bugsnag.com,10,10,100,available
+gcs,cloud_apis,"Google Cloud Storage",https://storage.googleapis.com,11,0,0,unavailable
+s3,cloud_apis,"AWS S3",https://s3.amazonaws.com,12,12,100,available
+cloudflare-api,cloud_apis,"Cloudflare API",https://api.cloudflare.com,12,12,100,available
+fastly,cloud_apis,"Fastly",https://www.fastly.com,11,9,82,limited
+slack-api,productivity,"Slack API",https://slack.com/api/api.test,12,12,100,available
+notion-api,productivity,"Notion API",https://api.notion.com,12,12,100,available
+ms-graph,productivity,"Microsoft Graph",https://graph.microsoft.com,12,12,100,available
+teams,productivity,"Microsoft Teams",https://teams.microsoft.com,12,11,92,available
+zoom,productivity,"Zoom",https://zoom.us,12,12,100,available
+webex,productivity,"Webex",https://www.webex.com,11,0,0,unavailable
+salesforce-login,productivity,"Salesforce login",https://login.salesforce.com,12,12,100,available
+hubspot-api,productivity,"HubSpot API",https://api.hubapi.com,12,12,100,available
+zendesk,productivity,"Zendesk",https://www.zendesk.com,11,5,45,limited
+airtable-api,productivity,"Airtable API",https://api.airtable.com,12,12,100,available
+typeform-api,productivity,"Typeform API",https://api.typeform.com,12,11,92,available
+surveymonkey,productivity,"SurveyMonkey",https://www.surveymonkey.com,11,10,91,available
+figma,productivity,"Figma",https://figma.com,11,11,100,available
+docusign,productivity,"DocuSign",https://www.docusign.com,12,12,100,available
+recaptcha,captcha,"reCAPTCHA",https://www.google.com/recaptcha/api.js,12,0,0,unavailable
+hcaptcha,captcha,"hCaptcha",https://hcaptcha.com,12,9,75,limited
